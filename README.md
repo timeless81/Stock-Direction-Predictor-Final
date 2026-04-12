@@ -15,7 +15,7 @@ Volume moving average.
 NASDAQ & S&P movement
 
 ### 4. Technical indicators
-a. RSI.  
+a. RSI - Relative Strength Index  
 b. Bollinger Band - They consist of three lines plotted on a stock chart:   
     Middle band → a moving average (usually 20-day).   
     Upper band → middle band + volatility (standard deviation).  
