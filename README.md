@@ -1,6 +1,9 @@
 # Stock-Direction-Predictor
 
-## Key featurs
+### *"This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis."
+
+
+## Key Featurs
 ### 1. Price based features
 OHLC - Open, High, Low, Close.  
 Prive 20 day moving average.  
