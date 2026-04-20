@@ -43,3 +43,20 @@ Interest rate.
 Gold price.  
 Bitcoin price.  
 Fed decisions.  
+
+### EDA (Exploratory Data Analysis)
+
+#### Boolinger Band 
+![My Image](bollinger.png)
+
+### Price vs moving averages
+Plotted with moving average of 20, 50 and 200 days. 
+![My Image](price_vs_ma.png)
+### Price vs momentum indicators
+The growing spike amplitudes on the momentum indiactos is a good reflection of upwards trending closing price
+
+![My Image](price_vs_momentum.png)
+
+
+
+
