@@ -9,7 +9,7 @@
 The main setup is that if put your money in this stock from this date then how much will it be by that date
 or will the stock go up or down by this amount of percent.
 
-## Key Featurs
+## Key Features
 ### 1. Price based features
 OHLC - Open, High, Low, Close.  
 Prive 20 day moving average.  
