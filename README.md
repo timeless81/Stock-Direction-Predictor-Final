@@ -1,6 +1,10 @@
 # Stock-Direction-Predictor
+### Notebook link - https://github.com/timeless81/Stock-Direction-Predictor/blob/main/Stocks.ipynb
 
 ### *"This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis."
+
+
+
 
 
 ## Key Featurs
