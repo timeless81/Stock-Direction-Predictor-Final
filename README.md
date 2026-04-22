@@ -61,6 +61,8 @@ The growing spike amplitudes on the momentum indiactos is a good reflection of u
 
 ![My Image](price_vs_momentum.png)
 
-
+### The setup 
+The main setup is that if put your money in this stock from this date then how much will it be by that date
+or will the stock go up or down by this amount of percent.
 
 
