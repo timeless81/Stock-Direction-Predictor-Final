@@ -66,5 +66,20 @@ The growing spike amplitudes on the momentum indiactos is a good reflection of u
 ### The setup 
 The main setup is that when you start from this date and by this date how much money will you have or by how much will the stocks up or down.
 
+## EDA Observations:
+
+### 1. The stock direction:
+![My Image](stock_direction.png)
+
+From the above plot it is apparent that stock moves up about 53% of time and down for 47% of the time. Which is close to a 50:50 split and therefore the prediction of the stock direction(Target) is not going to be simple modeling.
 
 
+### 2. Lag features do not correlate well with the target. Here is the correlation plot
+![My Image](lag_feature_corr_with_target.png)
+
+This happens because the linear correlation between those features is missing.
+
+However, doing a rolling mean average of the target resulted in a good correlation.
+
+![My Image](corr_lag_vs_target_rmean.png)
+### Explaination - Why target lags correlation with Target is small
