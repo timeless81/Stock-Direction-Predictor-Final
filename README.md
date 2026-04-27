@@ -89,6 +89,13 @@ However, doing a rolling mean average of the target resulted in a good correlati
 ![My Image](corr_lag_vs_target_rmean.png)
 ### Explaination - Why target lags correlation with Target is small
 
+## Feature Engineering -
+Added the following features to the data to enrich the trends in the data.
+1. Added lag features.
+2. Added stock returns.
+3. Added momentum features - ROC, Bollinger bands, MACD, RSI etc.
+4. Added seaonality features like, day, week and quarter in the data.
+
 ## Base Model -
 Logistical regression was used as the base model for this due to its efficiency in binary classification problems. It becomes a model to compare other models.
 
