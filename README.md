@@ -54,15 +54,15 @@ Fed decisions.
 ### EDA (Exploratory Data Analysis)
 
 #### Boolinger Band 
-![My Image](bollinger.png)
+![My Image](Images/bollinger.png)
 
 ### Price vs moving averages
 Plotted with moving average of 20, 50 and 200 days. 
-![My Image](price_vs_ma.png)
+![My Image](Images/price_vs_ma.png)
 ### Price vs momentum indicators
 The growing spike amplitudes on the momentum indiactos is a good reflection of upwards trending closing price
 
-![My Image](price_vs_momentum.png)
+![My Image](Images/price_vs_momentum.png)
 ### The setup 
 The main setup is that when you start from this date and by this date how much money will you have or by how much will the stocks up or down.
 
@@ -70,23 +70,23 @@ The main setup is that when you start from this date and by this date how much m
 
 ### 1. Correlation heat map - suggests closing price is highly correlated with sp500, nasdaq and dowjones
 So we can drop those features
-![My Image](corr_heatmap.png)
+![My Image](Images/corr_heatmap.png)
 
 
 ### 2. The stock direction:
-![My Image](stock_direction.png)
+![My Image](Images/stock_direction.png)
 
 From the above plot it is apparent that stock moves up about 53% of time and down for 47% of the time. Which is close to a 50:50 split and therefore the prediction of the stock direction(Target) is not going to be simple modeling.
 
 
 ### 3. Lag features do not correlate well with the target. Here is the correlation plot
-![My Image](lag_feature_corr_with_target.png)
+![My Image](Images/lag_feature_corr_with_target.png)
 
 This happens because the linear correlation between those features is missing.
 
 However, doing a rolling mean average of the target resulted in a good correlation.
 
-![My Image](corr_lag_vs_target_rmean.png)
+![My Image](Images/corr_lag_vs_target_rmean.png)
 ### Explaination - Why target lags correlation with Target is small
 
 ## Feature Engineering -
